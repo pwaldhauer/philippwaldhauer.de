@@ -1,0 +1,104 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+
+ins {
+	text-decoration: none;
+}
+del {
+	text-decoration: line-through;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+body {
+	font-family: 'Open Sans', Helvetica, sans-serif;
+	font-weight: 300;
+	padding: 1em;
+
+/*	background: url('drop_blur.jpg') no-repeat center center fixed; */
+	background-size: cover;
+}
+
+.content {
+	margin: 50px;
+}
+
+h1 {
+	font-weight: 400;
+	font-size: 28px;
+
+	line-height: 135%;
+	margin-bottom: 40px;
+}
+
+h2 {
+	font-weight: 400;
+	font-size: 24px;
+
+	line-height: 135%;
+}
+
+ul {
+	min-width: 300px;
+	max-width: 600px;
+
+	margin: 10px 0;
+}
+
+li {
+	font-size: 18px;
+
+	line-height: 150%;
+
+	padding: 5px 0;
+}
+
+li a {
+	color: #3071a7;
+}
+
+li a:hover {
+	text-decoration: none;
+}
+
+.impressum {
+	padding-top: 45px;
+	font-size: 12px;
+}
+
+.impressum a {
+	color: rgba(0, 0, 0, 1);
+	text-decoration: none;
+}
